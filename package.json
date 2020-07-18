@@ -21,7 +21,7 @@
   "devDependencies": {
     "browser-sync": "^2.26.10",
     "clean-css": "^4.2.3",
-    "cssmin": "^4.2.3",
+    "cssmin": "^0.4.3",
     "del": "^5.1.0",
     "grunt": "^1.0.2",
     "grunt-browser-sync": "^2.2.0",
@@ -54,7 +54,7 @@
     "parallelshell": "^3.0.1",
     "rimraf": "^2.6.2",
     "time-grunt": "^2.0.0",
-    "uglifyjs": "^3.10.0",
+    "uglifyjs": "^2.4.11",
     "usemin-cli": "^0.6.0"
   },
   "dependencies": {
