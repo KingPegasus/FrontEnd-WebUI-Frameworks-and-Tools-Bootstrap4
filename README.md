@@ -48,9 +48,10 @@ Introductory Project for Bootstrap 4
 ## Making use of Gulp
 ### Installing Gulp
 - npm install -g gulp-cli@2.0.1
-- npm install gulp@3.9.1 --save-dev
+- npm install gulp@4.0.0 --save-dev
 ### Install Gulp Plugins for SASS and Browser-Sync
 - npm install gulp-sass@4.1.0  browser-sync@2.26.7 --save-dev
 
 ## Links to Errors faced
 - [Problem Running Parallelshell](https://stackoverflow.com/questions/53461626/problem-running-parallelshell-nodejs-script/)
+- [In Gulp 4.0 - Assertion Error](https://stackoverflow.com/questions/51098749/everytime-i-run-gulp-anything-i-get-a-assertion-error-task-function-must-be)
