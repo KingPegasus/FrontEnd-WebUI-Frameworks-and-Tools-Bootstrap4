@@ -79,6 +79,5 @@ gulp.task('usemin', function() {
   });
   
   gulp.task('build',gulp.series('clean', gulp.parallel('copyfonts','imagemin','usemin'),  function(done) {
-      //gulp.start('copyfonts','imagemin','usemin');
       done();
   }));
