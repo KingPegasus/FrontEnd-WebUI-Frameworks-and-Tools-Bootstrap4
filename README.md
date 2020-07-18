@@ -10,7 +10,7 @@ Introductory Project for Bootstrap 4
 - SASS SCSS 4.14.1 (npm install --save-dev node-sass@4.14.1 )
 - npm install --save-dev onchange@3.3.0 parallelshell@3.0.2
 
-## Making Ready for Deployment
+## Making Ready for Deployment using NPM
 - Cleaning up a Distribution Folder (npm install --save-dev rimraf@2.6.2)
 - Copying Fonts (npm -g install copyfiles@2.0.0)
 - Compressing and Minifying Images (npm -g install imagemin-cli@3.0.0)
@@ -51,7 +51,25 @@ Introductory Project for Bootstrap 4
 - npm install gulp@4.0.0 --save-dev
 ### Install Gulp Plugins for SASS and Browser-Sync
 - npm install gulp-sass@4.1.0  browser-sync@2.26.7 --save-dev
+### Copying the Files and Cleaning up the Dist Folder
+- npm install del@5.1.0 --save-dev
+### Compressing and Minifying Images
+- npm install gulp-imagemin@7.1.0 --save-dev
+### Preparing the Distribution Folder and Files
+- npm install gulp-uglify@3.0.0 --save-dev
+- npm install gulp-usemin@0.3.29 --save-dev
+- npm install gulp-rev@8.1.1 --save-dev
+- npm install gulp-clean-css@3.9.3 --save-dev
+- npm install gulp-flatmap@1.0.2 --save-dev
+- npm install gulp-htmlmin@4.0.0 --save-dev
+### Gulp build
+- gulp build
+### Run with Gulp
+- gulp
 
 ## Links to Errors faced
 - [Problem Running Parallelshell](https://stackoverflow.com/questions/53461626/problem-running-parallelshell-nodejs-script/)
 - [In Gulp 4.0 - Assertion Error](https://stackoverflow.com/questions/51098749/everytime-i-run-gulp-anything-i-get-a-assertion-error-task-function-must-be)
+- [Migrate gulp.start function to Gulp v4](https://stackoverflow.com/questions/50986454/migrate-gulp-start-function-to-gulp-v4)
+- [Gulp4. “AssertionError : Task never defined” when calling or importing tasks](https://stackoverflow.com/questions/50505275/gulp4-assertionerror-task-never-defined-when-calling-or-importing-tasks/54939126)
+- [Gulp error: The following tasks did not complete: Did you forget to signal async completion?](https://stackoverflow.com/questions/36897877/gulp-error-the-following-tasks-did-not-complete-did-you-forget-to-signal-async)
